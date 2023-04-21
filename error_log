@@ -1,0 +1,55 @@
+[19-Apr-2023 17:49:43 UTC] PHP Warning:  include(../config.php): failed to open stream: No such file or directory in /home4/do10/public_html/final/mainPage.php on line 9
+[19-Apr-2023 17:49:43 UTC] PHP Warning:  include(): Failed opening '../config.php' for inclusion (include_path='.:/opt/cpanel/ea-php72/root/usr/share/pear') in /home4/do10/public_html/final/mainPage.php on line 9
+[19-Apr-2023 17:49:43 UTC] PHP Warning:  include(../mainPage.html): failed to open stream: No such file or directory in /home4/do10/public_html/final/mainPage.php on line 10
+[19-Apr-2023 17:49:43 UTC] PHP Warning:  include(): Failed opening '../mainPage.html' for inclusion (include_path='.:/opt/cpanel/ea-php72/root/usr/share/pear') in /home4/do10/public_html/final/mainPage.php on line 10
+[19-Apr-2023 17:49:43 UTC] PHP Fatal error:  Uncaught Error: Call to a member function prepare() on null in /home4/do10/public_html/final/mainPage.php:15
+Stack trace:
+#0 {main}
+  thrown in /home4/do10/public_html/final/mainPage.php on line 15
+[19-Apr-2023 17:57:01 UTC] PHP Warning:  include(../config.php): failed to open stream: No such file or directory in /home4/do10/public_html/final/mainPage.php on line 9
+[19-Apr-2023 17:57:01 UTC] PHP Warning:  include(): Failed opening '../config.php' for inclusion (include_path='.:/opt/cpanel/ea-php72/root/usr/share/pear') in /home4/do10/public_html/final/mainPage.php on line 9
+[19-Apr-2023 17:57:01 UTC] PHP Warning:  include(../mainPage.html): failed to open stream: No such file or directory in /home4/do10/public_html/final/mainPage.php on line 10
+[19-Apr-2023 17:57:01 UTC] PHP Warning:  include(): Failed opening '../mainPage.html' for inclusion (include_path='.:/opt/cpanel/ea-php72/root/usr/share/pear') in /home4/do10/public_html/final/mainPage.php on line 10
+[19-Apr-2023 17:57:01 UTC] PHP Fatal error:  Uncaught Error: Call to a member function prepare() on null in /home4/do10/public_html/final/mainPage.php:15
+Stack trace:
+#0 {main}
+  thrown in /home4/do10/public_html/final/mainPage.php on line 15
+[19-Apr-2023 18:35:08 UTC] PHP Warning:  include(../config.php): failed to open stream: No such file or directory in /home4/do10/public_html/final/mainPage.php on line 9
+[19-Apr-2023 18:35:08 UTC] PHP Warning:  include(): Failed opening '../config.php' for inclusion (include_path='.:/opt/cpanel/ea-php72/root/usr/share/pear') in /home4/do10/public_html/final/mainPage.php on line 9
+[19-Apr-2023 18:35:08 UTC] PHP Fatal error:  Uncaught Error: Call to a member function prepare() on null in /home4/do10/public_html/final/mainPage.php:15
+Stack trace:
+#0 {main}
+  thrown in /home4/do10/public_html/final/mainPage.php on line 15
+[19-Apr-2023 18:36:18 UTC] PHP Warning:  include(/config.php): failed to open stream: No such file or directory in /home4/do10/public_html/final/mainPage.php on line 9
+[19-Apr-2023 18:36:18 UTC] PHP Warning:  include(): Failed opening '/config.php' for inclusion (include_path='.:/opt/cpanel/ea-php72/root/usr/share/pear') in /home4/do10/public_html/final/mainPage.php on line 9
+[19-Apr-2023 18:36:18 UTC] PHP Fatal error:  Uncaught Error: Call to a member function prepare() on null in /home4/do10/public_html/final/mainPage.php:15
+Stack trace:
+#0 {main}
+  thrown in /home4/do10/public_html/final/mainPage.php on line 15
+[19-Apr-2023 18:39:15 UTC] PHP Warning:  include(/config.php): failed to open stream: No such file or directory in /home4/do10/public_html/final/mainPage.php on line 9
+[19-Apr-2023 18:39:15 UTC] PHP Warning:  include(): Failed opening '/config.php' for inclusion (include_path='.:/opt/cpanel/ea-php72/root/usr/share/pear') in /home4/do10/public_html/final/mainPage.php on line 9
+[19-Apr-2023 18:39:15 UTC] PHP Fatal error:  Uncaught Error: Call to a member function prepare() on null in /home4/do10/public_html/final/mainPage.php:15
+Stack trace:
+#0 {main}
+  thrown in /home4/do10/public_html/final/mainPage.php on line 15
+[19-Apr-2023 19:08:00 UTC] PHP Fatal error:  Uncaught Error: Call to a member function fetchAll() on boolean in /home4/do10/public_html/final/mainPage.php:19
+Stack trace:
+#0 {main}
+  thrown in /home4/do10/public_html/final/mainPage.php on line 19
+[19-Apr-2023 19:08:12 UTC] PHP Fatal error:  Uncaught Error: Call to a member function fetchAll() on boolean in /home4/do10/public_html/final/mainPage.php:19
+Stack trace:
+#0 {main}
+  thrown in /home4/do10/public_html/final/mainPage.php on line 19
+[19-Apr-2023 19:12:00 UTC] PHP Recoverable fatal error:  Object of class PDOStatement could not be converted to string in /home4/do10/public_html/final/mainPage.php on line 18
+[19-Apr-2023 19:26:12 UTC] PHP Warning:  include(../includes/header.php): failed to open stream: No such file or directory in /home4/do10/public_html/final/search.php on line 3
+[19-Apr-2023 19:26:12 UTC] PHP Warning:  include(): Failed opening '../includes/header.php' for inclusion (include_path='.:/opt/cpanel/ea-php72/root/usr/share/pear') in /home4/do10/public_html/final/search.php on line 3
+[19-Apr-2023 19:26:12 UTC] PHP Warning:  include(../config.php): failed to open stream: No such file or directory in /home4/do10/public_html/final/search.php on line 28
+[19-Apr-2023 19:26:12 UTC] PHP Warning:  include(): Failed opening '../config.php' for inclusion (include_path='.:/opt/cpanel/ea-php72/root/usr/share/pear') in /home4/do10/public_html/final/search.php on line 28
+[19-Apr-2023 19:26:12 UTC] PHP Warning:  include(../includes/footer.html): failed to open stream: No such file or directory in /home4/do10/public_html/final/search.php on line 71
+[19-Apr-2023 19:26:12 UTC] PHP Warning:  include(): Failed opening '../includes/footer.html' for inclusion (include_path='.:/opt/cpanel/ea-php72/root/usr/share/pear') in /home4/do10/public_html/final/search.php on line 71
+[19-Apr-2023 19:27:25 UTC] PHP Warning:  include(../includes/header.php): failed to open stream: No such file or directory in /home4/do10/public_html/final/search.php on line 3
+[19-Apr-2023 19:27:25 UTC] PHP Warning:  include(): Failed opening '../includes/header.php' for inclusion (include_path='.:/opt/cpanel/ea-php72/root/usr/share/pear') in /home4/do10/public_html/final/search.php on line 3
+[19-Apr-2023 19:27:25 UTC] PHP Warning:  include(../config.php): failed to open stream: No such file or directory in /home4/do10/public_html/final/search.php on line 37
+[19-Apr-2023 19:27:25 UTC] PHP Warning:  include(): Failed opening '../config.php' for inclusion (include_path='.:/opt/cpanel/ea-php72/root/usr/share/pear') in /home4/do10/public_html/final/search.php on line 37
+[19-Apr-2023 19:27:25 UTC] PHP Warning:  include(../includes/footer.html): failed to open stream: No such file or directory in /home4/do10/public_html/final/search.php on line 80
+[19-Apr-2023 19:27:25 UTC] PHP Warning:  include(): Failed opening '../includes/footer.html' for inclusion (include_path='.:/opt/cpanel/ea-php72/root/usr/share/pear') in /home4/do10/public_html/final/search.php on line 80

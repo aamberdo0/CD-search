@@ -1,0 +1,75 @@
+<html>
+  <head>
+    <link rel="stylesheet" href="css.css" />
+    <title>Final Exam</title>
+  </head>
+
+  <body>
+    <header class="header">
+      <section class="flex">
+        <nav class="navbar">
+          <a href="index.html">Home</a>
+          <a href="search.html">Search</a>
+          <a href="mainPage.html">Update</a>
+          <a href="products.php">Products</a>
+        </nav>
+      </section>
+    </header>
+
+    <section>
+      <h1 class="heading">Update the data</h1>
+      <div class="form-container">
+        <form action="mainPage.php" method="post">
+          <input
+            type="text"
+            name="itemId"
+            required
+            placeholder="Enter item ID"
+            class="box"
+          />
+          <input
+            type="text"
+            name="itemNm"
+            required
+            placeholder="Enter item name"
+            class="box"
+          />
+          <input
+            type="number"
+            name="itemQty"
+            required
+            placeholder="Enter item quantity"
+            class="box"
+          />
+          <input
+            type="text"
+            name="type"
+            required
+            placeholder="Enter item type"
+            class="box"
+          />
+          <input
+            type="text"
+            name="crew"
+            required
+            placeholder="Enter crew"
+            class="box"
+          />
+          <input
+            type="date"
+            name="year"
+            required
+            placeholder="Enter date"
+            class="box"
+          />
+          <input
+            type="submit"
+            name="submit"
+            class="main"
+            value="Update Items"
+          />
+        </form>
+      </div>
+    </section>
+  </body>
+</html>

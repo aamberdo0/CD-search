@@ -1,0 +1,250 @@
+
+  @import url('https://fonts.googleapis.com/css2?family=Inter:wght@600&display=swap');
+
+*{
+    margin:0; 
+    padding:auto; 
+
+}
+body,html{
+    height:100%; 
+    margin:0;
+}
+html{
+    font-size: 60%; 
+    overflow-x: hidden; 
+    scroll-padding-top: 5.5rem; 
+    scroll-behavior: smooth;
+    stop-opacity: 7rem;
+}
+/* welcome page first */
+.img{
+    background-image: url('movie.jpeg');
+    background-size:cover; 
+    background-repeat:no-repeat; 
+    background-position: center;
+    height:100vh; 
+    width:100%;
+
+}
+.welcome{
+    position:absolute; 
+    margin-right:300px;
+    font-family: 'Inter', sans-serif; 
+    color:#faf1e5;
+    background-color:#694f34;  
+    padding:9px;
+    font-size:18px;
+    border-radius:7px;
+    bottom:320px;
+    right: 0px;
+    text-decoration: none;
+    text-align:center;
+    background-color:white;
+    color:#392d1e;
+    right:300px; 
+    margin-left:auto;
+}
+.welcome:hover{
+    color:#faf1e5;
+    background-color:#694f34;  
+    text-decoration:none;
+}
+
+/* Main function page: navigtation bar */
+section{
+    margin:0 auto; 
+    max-width:1200px; 
+    padding:2rem; 
+}
+.header{
+    position:sticky; 
+    top:0; 
+    left:0; 
+    right:0; 
+    z-index:1000px; 
+    background-color:var(--white); 
+    border-bottom: var(--border); 
+    font-family:'Rubik';
+ 
+}
+
+.header .flex{
+    display:flex; 
+    align-items: center; 
+    justify-content:center; 
+    position:relative; 
+}
+.header .flex .logo{
+    font-size:2.5rem; 
+    color:black; 
+}
+:root{
+    --brown: #694f34; 
+    --pale:#eec8a6; 
+    --white: #fff; 
+    --black:#222; 
+    --border:.2rem solid var(--black); 
+    --box-shadow: 0.8rem 1.3rem rgba(0,0,0,.1); 
+}
+.header .flex .navbar a{
+    font-size:2rem; 
+    margin: 0 1rem; 
+    color:black; 
+    border-radius: .5rem; 
+    padding: .5rem 1.8rem; 
+    font-family:'Rubik', sans-serif;
+    font-style:normal;
+    text-decoration: none;
+
+}
+.header .navbar a:hover{
+    color:white; 
+    background:var(--brown);  
+}
+
+/* title for the page */
+.heading{
+    text-align:center; 
+    color:var(--yellow) ;
+    text-transform: uppercase;
+    padding-bottom: 1.5rem;
+    padding-top:2rem;
+    font-size:4rem;
+}
+.sub-heading{
+    text-align:center; 
+    color:var(--brown) ;
+    padding-bottom: 1.5rem;
+    padding-top:2rem;
+    font-size:4rem;
+}
+
+/* Search page */
+.search-box{
+    width:500px; 
+    margin:auto; 
+    border-radius:5px; 
+}
+.column{
+    display:flex; 
+    align-items: center;
+    padding: 19px 10px ;
+}
+.search-box input[type=text]{
+    padding:10px; 
+    font-size:17px; 
+    border:1.5px solid var(--black); 
+    float:left; 
+    width:300px; 
+    background:white; 
+}
+.search-box .column button {
+    float:left; 
+    width:100px;
+    padding: 11.5px;
+    color:#faf1e5;
+    background-color:#694f34;  
+    font-size: 17px;
+    border: 0.5px solid var(--black);
+    border-left: none; /* Prevent double borders */
+    cursor: pointer;
+}
+.search-box .column button:hover{
+    background: var(--white);
+    color: var(--brown);  
+    border: 0.5px solid var(--black);
+}
+/* style the table for output */
+table{
+    border-collapse: collapse;
+    width: 70%;
+    font-size:20px;
+    text-align:center;
+    margin-right: auto; 
+    margin-left: auto;
+    
+}
+th,td{
+    border:1px solid black; 
+    padding:10px; 
+    font-size:20px;
+     text-align:center;
+}
+th,td{
+    padding:10px; 
+}
+table tr:nth-child(even){
+    background-color:var(--pale); 
+}
+table th{
+    padding-top:12px;
+    padding-bottom:12px; 
+    text-align:center; 
+    background-color: var(--brown);
+    color: white;
+    font-size:20px;
+}
+
+.main{
+    display:inline-block; 
+    padding:10px 20px; 
+    cursor:pointer; 
+    margin-top:16px;
+    color:var(--brown);
+    background-color:var(--white); 
+    font-size:18px; 
+    border-radius:5px; 
+}
+.main:hover{
+    color:var(--white);
+    background-color:var(--brown); 
+}
+.form-container form .box{
+    width:100%; 
+    border-radius:5px; 
+    padding: 12px 14px; 
+    border:var(--border); 
+    margin:10px 0; 
+    font-size: 18px; 
+    
+}
+.form-container{
+    display:flex;
+    top:100%;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+.form-container form{
+    width:500px; 
+    border-radius:5px; 
+    border:var(--border); 
+    padding:20px; 
+    text-align: center;
+    background-color:var(--pale);
+   
+}
+.form-container form p{
+    margin-top:20px; 
+    font-size:20px; 
+    color:var(--black); 
+}
+.form-container form p a{
+    color:var(--yellow); 
+    text-transform:none; 
+    text-decoration:none;
+}
+.form-container form p a:hover{
+    color:var(--yellow); 
+    -webkit-text-stroke:1px var(--yellow); 
+    text-transform:none; 
+    text-decoration:underline;
+}
+
+
+
+
+
+
+
